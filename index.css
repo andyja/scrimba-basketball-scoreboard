@@ -1,8 +1,46 @@
 body {
+    background-image: url("./images/markus-spiske-J_tbkGWxCH0-unsplash.jpg");
+    background-size: cover;
     margin: 0;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.score {
+    background: rgba(191, 32, 223, 0.5);
+}
+
+.score-content {
+    font-size: 50px;
+    color: green;
+    margin: 20px;
+    font-size: 50px;
+    color: green;
+    margin: 20px;
+}
+.increment-btns {
+    height: 25px;
+    width: 30px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+}
+.decrement-btns {
+    height: 25px;
+    width: 30px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
 }
